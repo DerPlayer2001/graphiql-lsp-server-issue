@@ -10,4 +10,7 @@ Minimal Project to reproduce https://github.com/graphql/graphiql/issues/3620
 6. `BarFragment` will show the Error `Unknown fragment "BarFragment".GraphQL: Validatio`
 
 ## Expected behavior
-with `GraphQL.vscode-graphql` extension on Version `0.9.3` it properly recognizes the fragment `BarFragment` and does not show any errors
+With `GraphQL.vscode-graphql` extension on Version `0.9.3` it properly recognizes the fragment `BarFragment` and does not show any errors.
+
+## Disclaimer
+This is not supposed to be code that actually executes gql queries, it is just a minimal project to reproduce the issue, normally i would additionally use (graphql codegen)[https://the-guild.dev/graphql/codegen] to generate typescript types for the gql queries and fragments.
